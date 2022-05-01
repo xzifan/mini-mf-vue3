@@ -3,18 +3,18 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 
 const router = createRouter({
-  history: createWebHashHistory('#/vue'),
+  history: createWebHashHistory('/vue'),
   routes: [
     {
-      path: '/',
+      path: '/vue',
+      component: HomeView,
       name: 'home',
-      component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/vue/about',
       component: AboutView
     }
+    
   ]
 })
 
