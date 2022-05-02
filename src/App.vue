@@ -27,7 +27,7 @@ import Route from './router/Route.vue'
 #vue-micro-app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: var(--navigation-height, 80px) 2rem 0;
 
   font-weight: normal;
     
